@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu IMC</title>
+  </head>
+  <body>
+    <div>
+      <img src="./assets/relogio.png" class="img-site" />
+
+      <header>
+        <h1 id="h1-img">Meu IMC</h1>
+      </header>
+
+      <nav>
+        <h2>Coloque os seus dados na calculadora e calcule o seu IMC</h2>
+      </nav>
+
+      <main>
+        <div class="info-imc">
+          <p>Digite a sua altura(m) <span>*</span></p>
+          <input type="input" placeholder="Altura" id="altura-imc" />
+        </div>
+        <div class="info-imc">
+          <p>Digite o seu peso(kg) <span>*</span></p>
+          <input type="input" placeholder="Peso" id="peso-imc" />
+        </div>
+
+        <button type="button" id="button-imc">Calcular</button>
+        <p id="total-imc"></p>
+      </main>
+
+      <img src="./assets/balanca.png" alt="BalancaImg" class="img-site" />
+
+      <article>
+        <h3>Classificação do IMC</h3>
+        <ul>
+          <li>Abaixo de 18.5 = Abaixo do peso</li>
+          <li>Entre 18.6 e 24.9 = Peso normal</li>
+          <li>Entre 25.0 e 29.9 = Pouco acima do peso</li>
+          <li>Entre 30.0 e 34.9 = Obesidade grau I</li>
+          <li>Entre 35.0 e 39.9 = Obesidade grau II (severa)</li>
+          <li>Acima de 40.0 = Obesidade grau III (mórbida)</li>
+        </ul>
+      </article>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
