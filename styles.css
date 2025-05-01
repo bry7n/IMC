@@ -83,7 +83,10 @@ main:hover {
     border-radius: 20px;
     border:none;
     text-align: center;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto 30px;
 }
 
 #peso{
@@ -92,11 +95,14 @@ main:hover {
 }
 
 #peso-imc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
     height: 27px;
     border-radius: 20px;
     border:none;
     text-align: center;  
-    margin-bottom: 35px;
+    margin:0 auto 35px;
 }
 
 button{
@@ -107,6 +113,9 @@ button{
     background-color: #8F1E1B;
     color: white;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover{

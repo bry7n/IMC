@@ -32,5 +32,5 @@ button.addEventListener("click", function () {
 
   total.innerHTML = `Seu IMC é ${imc.toFixed(
     2
-  )}, você está ${classificacaoImc}`;
+  )}%, você está ${classificacaoImc}`;
 });
